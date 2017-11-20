@@ -6,7 +6,7 @@
 
 ## :rocket: How to use it
 
-#### Getting script from the repository
+#### Get script from the repository
 
 ```bash
 $ wget https://raw.githubusercontent.com/pierrechls/changing-author-info/master/git-author-rewrite.sh
@@ -17,8 +17,6 @@ $ wget https://raw.githubusercontent.com/pierrechls/changing-author-info/master/
 ```bash
 $ ./git-author-rewrite.sh "old-email@example.com" "Correct Name" "correct-email@example.com"
 ```
-
-#### Review the new Git history for errors
 
 #### Push the corrected history to GitHub:
 
