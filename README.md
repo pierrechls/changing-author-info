@@ -2,7 +2,7 @@
 
 # changing-author-info
 
-> Default description
+> Changing the Git history of your repository using a script with parameters
 
 ## :rocket: How to use it
 
