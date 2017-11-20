@@ -6,16 +6,16 @@
 
 ## :rocket: How to use it
 
-#### Clone the repo
+#### Getting script from the repository
 
 ```bash
-$ git clone https://github.com/pierrechls/changing-author-info
+$ wget https://raw.githubusercontent.com/pierrechls/changing-author-info/master/git-author-rewrite.sh
 ```
 
 #### Run the script
 
 ```bash
-$ ./git-author-rewrite.sh "your-old-email@example.com" "Your Correct Name" "your-correct-email@example.com"
+$ ./git-author-rewrite.sh "old-email@example.com" "Correct Name" "correct-email@example.com"
 ```
 
 #### Review the new Git history for errors
