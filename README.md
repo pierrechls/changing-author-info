@@ -9,13 +9,19 @@
 #### Get script from the repository
 
 ```bash
-$ wget https://raw.githubusercontent.com/pierrechls/changing-author-info/master/git-author-rewrite.sh
+wget https://raw.githubusercontent.com/pierrechls/changing-author-info/master/git-author-rewrite.sh
+```
+
+#### Make it executable [optional]
+
+```bash
+chmod +x git-author-rewrite.sh
 ```
 
 #### Run the script
 
 ```bash
-$ ./git-author-rewrite.sh "old-email@example.com" "Correct Name" "correct-email@example.com"
+./git-author-rewrite.sh "old-email@example.com" "Correct Name" "correct-email@example.com"
 ```
 
 #### Push the corrected history to GitHub:
